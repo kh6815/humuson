@@ -1,0 +1,21 @@
+server:
+  port: 18080
+  servlet:
+    session:
+      timeout: 30m
+  tomcat:
+    connection-timeout: 30s
+
+## logback
+logging:
+  level:
+    root: INFO
+    web: DEBUG
+  pattern:
+    file: "[local] %magenta([%d{yyyy:MM:dd HH:mm:ss}]) - %highlight([%level]) - %yellow([%thread]) - %green([%logger{35}]) - %msg%n"
+    console: "[local] %magenta([%d{yyyy:MM:dd HH:mm:ss}]) - %highlight([%level]) - %yellow([%thread]) - %green([%logger{35}]) - %msg%n"
+
+spring:
+  profiles:
+    active: local
+    include: core
