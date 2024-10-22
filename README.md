@@ -8,8 +8,7 @@
 - 서버구현: Spring Boot
 - 테스트: Postman
 
-- 실행방법
-gradle를 사용하여 local에서 실행: clean bootRun -Pprofile=local
+- 실행방법(gradle를 사용): clean bootRun -Pprofile=local
 <img width="791" alt="스크린샷 2024-10-22 오후 4 39 22" src="https://github.com/user-attachments/assets/9def80b8-8ff1-4b3b-97f0-c44baf0dcb4b">
 
 ## 프로젝트 구조 및 파일 설명
