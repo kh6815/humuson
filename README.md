@@ -7,6 +7,8 @@
 ## 과제 설명
 - 서버구현: Spring Boot
 - 테스트: Postman
+    - https://www.postman.com/kanghyeon/api/collection/99yueav/controller-testing?action=share&creator=14795201
+    - https://www.postman.com/kanghyeon/api/collection/ynm7bpw/humuson-mock-server?action=share&creator=14795201 
 
 - 실행방법(gradle를 사용): clean bootRun -Pprofile=local
 <img width="791" alt="스크린샷 2024-10-22 오후 4 39 22" src="https://github.com/user-attachments/assets/9def80b8-8ff1-4b3b-97f0-c44baf0dcb4b">
