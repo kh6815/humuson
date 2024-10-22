@@ -7,7 +7,7 @@
 ## 과제 설명
 - 서버구현: Spring Boot
 - 테스트: Postman
-    - [Controller Testing]([https://github.com/kh6815/archi-cli](https://www.postman.com/kanghyeon/api/collection/99yueav/controller-testing?action=share&creator=14795201)) 
+    - [Controller Testing](https://www.postman.com/kanghyeon/api/collection/99yueav/controller-testing?action=share&creator=14795201)
     - [Mock Server](https://www.postman.com/kanghyeon/api/collection/ynm7bpw/humuson-mock-server?action=share&creator=14795201)
 
 - 실행방법(gradle를 사용): clean bootRun -Pprofile=local
