@@ -40,7 +40,10 @@ public class OrderService {
         return orderModel.getOrderId();
     }
 
-    public Long sendToExternalOrder(OrderModel order) throws CustomException {
+    public Long sendToExternalOrder(OrderModel.SendOrderReq sendOrderReq) throws CustomException {
+
+        OrderModel order = getOrder(sendOrderReq.getOrderId());
+
         // 1. orderData -> JSON 형태로 변경
         // 1-1. convertOrderToJson 내부에서 변환시 에러처리 공통화
         String jsonData = externalSystem.convertObjectToJson(order);

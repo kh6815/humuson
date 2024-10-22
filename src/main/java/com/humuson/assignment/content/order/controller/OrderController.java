@@ -24,8 +24,8 @@ public class OrderController {
     }
 
     @PostMapping("/send")
-    public ApiResponseModel<Long> sendToExternalOrder(@RequestBody OrderModel orderModel) throws CustomException {
-        return new ApiResponseModel<>(orderService.sendToExternalOrder(orderModel));
+    public ApiResponseModel<Long> sendToExternalOrder(@RequestBody OrderModel.SendOrderReq sendOrderReq) throws CustomException {
+        return new ApiResponseModel<>(orderService.sendToExternalOrder(sendOrderReq));
     }
 
     @GetMapping("/{orderId}")

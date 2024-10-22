@@ -12,4 +12,9 @@ public class OrderModel {
     private String customerName;
     private String orderData;
     private OrderStateType orderState;
+
+    @Getter
+    public static class SendOrderReq {
+        private Long orderId;
+    }
 }
